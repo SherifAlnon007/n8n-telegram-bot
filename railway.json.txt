@@ -4,7 +4,8 @@
     "dockerfile": "Dockerfile"
   },
   "deploy": {
-    "startCommand": " n8n start --tunnel",
+    "startCommand": " n8n start",
     "healthcheckPath": "/"
   }
+
 }
